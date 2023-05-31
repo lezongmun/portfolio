@@ -1,0 +1,34 @@
+#contact {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#contact_text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0%;
+    line-height: 1;
+}
+
+#contact_text::before {
+    content: "";
+    display: block;
+    margin-left: 5%;
+    width: 150%;
+    height: 2.5px;
+    background-color: black;
+}
+
+
+
+.contact_text {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 150px;
+    position: relative;
+}    
+
+#contact_text_connect {
+    text-align: bottom;  
+}

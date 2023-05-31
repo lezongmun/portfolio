@@ -1,0 +1,57 @@
+#about {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height:100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+#about #about_text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    left: 4%;
+    width: 50%;
+    top: 20%;
+
+    font-family: 'Bodoni Moda', serif;
+    font-size: 220px;
+    /* font-style: italic; */
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    line-height: 1;
+}
+  
+#about #about_text.animate {
+    opacity: 0.1;
+    transform: translateX(0);
+}
+
+#about_text .me{
+    text-align: right;    
+}
+
+#about #about_description {
+    position: relative;
+    top: 40%;
+    right: 8%;
+    z-index: 2;
+    width: 50%;
+
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+
+  
+#about #about_description.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
