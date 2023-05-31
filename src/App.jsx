@@ -1,12 +1,12 @@
 import React from "react";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 import { useState, useEffect } from "react";
 
 import "./App.css";
-import NavBar from "./components/NavBar";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
+import NavBar from "./components/NavBar/NavBar";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import Contact from "./components/Contact/Contact";
 
 
 const App = () => {
