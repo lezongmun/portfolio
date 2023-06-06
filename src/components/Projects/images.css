@@ -1,0 +1,85 @@
+
+.images {
+    position: relative;
+    width: 50%;
+    height: 130vh;
+    z-index: 1;
+    left: 35%;
+}
+
+.image {
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: top 0.3s ease-out;
+}
+
+.image1 {
+    left: 0%;
+    position: absolute; 
+    margin-top: 16%;
+    height: 65%;
+    background-position: left;
+}
+
+.image2 {
+    left: 0%;
+    position: absolute; 
+    height: 50%;
+    margin-top: 90%;
+}
+
+.image3 {
+    margin-top: 50%;
+    height: 55%;
+    right: 0%;
+    position: absolute; 
+    background-position: left;
+  }
+
+.image4 {
+    height: 45%;
+    margin-top: 108%;
+    right: 0%;
+    position: absolute; 
+    background-position: left;
+}
+
+
+#aroundnus_img1 {
+    background-image: url('img/aroundnus_directions_map_samsung.png');
+}
+
+#aroundnus_img2 {
+    background-image: url('img/aroundnus_directions_samsung.png');
+}   
+
+#aroundnus_img3 {
+    background-image: url('img/aroundnus_bus_timings_samsung.png');
+}
+  
+#aroundnus_img4 {
+    background-image: url('img/aroundnus_find_nearest_samsung.png');
+}
+
+
+
+
+#eatwhere_img1 {
+  background-image: url('img/eatwhere_results_samsung.png');
+}
+
+#eatwhere_img2 {
+  background-image: url('img/eatwhere_dietary_samsung.png');
+}   
+
+#eatwhere_img3 {
+  background-image: url('img/eatwhere_filter_samsung.png');
+}
+
+#eatwhere_img4 {
+  background-image: url('img/eatwhere_send_location_samsung.png');
+}
+

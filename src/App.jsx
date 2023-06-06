@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar/NavBar";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
+import Projects from "./components/Projects/Projects"
 
 
 const App = () => {
@@ -40,7 +41,7 @@ const App = () => {
                 <Skills scrollPosition={scrollPosition}/>
             </section>
             <section id="projects_page" className="page">
-                Projects
+                <Projects scrollPosition={scrollPosition}/>
             </section>
             <section id="contact_page" className="page">
                 <Contact/>

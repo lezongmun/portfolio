@@ -22,6 +22,7 @@
 .contact_icon {
     font-size: 60px;
     color: #000;
+
 }
 
 .contact_icon:hover {
@@ -50,7 +51,8 @@
 
 
 .contact_text {
-    font-family: 'Bodoni Moda', serif;
+    margin-left: 2%;
+    font-family: 'DM Serif Display', serif;
     font-size: 150px;
     position: relative;
 }    

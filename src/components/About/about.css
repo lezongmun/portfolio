@@ -44,7 +44,7 @@
     width: 50%;
 
     font-size: 20px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Geologica', sans-serif;
     opacity: 0;
     transform: translateX(100%);
     transition: opacity 0.5s ease, transform 0.5s ease;

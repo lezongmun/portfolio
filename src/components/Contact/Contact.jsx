@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <div id="contact">
              <div id="contact_icons">
-                <a href="https://twitter.com/example" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:lezongmun@u.nus.edu" target="_blank" rel="noopener noreferrer">
                     <IoMdMail id="mail_icon" className="contact_icon" />
                 </a>
                 <a href="https://github.com/lezongmun?tab=repositories" target="_blank" rel="noopener noreferrer">

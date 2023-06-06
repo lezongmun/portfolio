@@ -9,12 +9,12 @@ const Home = ({ scrollPosition }) => {
 
     return (
         <div id="home" className={classNames}>
-                <div id="name" className="home_body">
-                    MUN LE ZONG
-                </div>
-                <div id="description" className="home_body">
-                    Software Engineer
-                </div>
+            <div id="name" className="home_body">
+                MUN LE ZONG
+            </div>
+            <div id="description" className="home_body">
+                Software Engineer
+            </div>
         </div>
     )
 
