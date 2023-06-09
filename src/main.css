@@ -1,0 +1,18 @@
+section.page {
+    min-height: 100vh;
+}
+
+
+#about_page{
+    min-height: 70vh;
+}
+
+#projects_page {
+    /* border: 1px solid black; */
+}
+
+
+#skills_page {
+
+    /* border: 5px solid blue; */
+}

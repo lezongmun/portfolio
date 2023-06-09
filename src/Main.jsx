@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./components/Home/Home";
 import { useState, useEffect } from "react";
 
-import "./App.css";
+import "./main.css";
 import NavBar from "./components/NavBar/NavBar";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";

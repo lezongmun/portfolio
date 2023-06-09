@@ -1,6 +1,6 @@
 import React from "react";
 import "./skills.css";
-// import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 const SkillsColumn = ({skills}) => {
 
@@ -80,7 +80,9 @@ const Skills = () => {
                 SKILLS
             </div>
             */}
-            {/* <Link to="/">Go back</Link> */}
+            <Link to="/about">Go back</Link>
+            <Outlet />
+
 
 
 
