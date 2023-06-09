@@ -25,9 +25,9 @@
     content: "";
     position: absolute;
     bottom: 0;
-    left: 7%;
-    width: 86%;
-    height: 1.25px;
+    left: 15%;
+    width: 70%;
+    height: 1px;
     background-color: white;
     /* background-clip: content-box; */
 }
@@ -36,9 +36,9 @@
     content: "";
     position: absolute;
     bottom: 0;
-    left: 7%;
-    width: 86%;
-    height: 1.55px;
+    left: 15%;
+    width: 70%;
+    height: 1.5px;
     background-color: black;
     /* background-clip: content-box; */
 }
@@ -51,7 +51,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 300px;
+    padding: 0 28%;
 }
 
 .navbar_item:hover {

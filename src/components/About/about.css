@@ -2,10 +2,9 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    height:100%;
     overflow-x: hidden;
     overflow-y: hidden;
-
+    height: 100%;
 }
 
 
@@ -13,13 +12,14 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    height: 50%;
     z-index: 1;
     left: 4%;
-    width: 50%;
     top: 10%;
+    border: 1px solid red;
 
     font-family: 'Bodoni Moda', serif;
-    font-size: 220px;
+    font-size: 200px;
     /* font-style: italic; */
     opacity: 0.1;
     transform: translateX(-30%);
@@ -34,6 +34,9 @@
 
 #about_text .me{
     text-align: right;    
+    /* margin-left: 30%; */
+    /* width: 100%; */
+
 }
 
 #about #about_description {

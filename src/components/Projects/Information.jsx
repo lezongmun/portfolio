@@ -56,8 +56,8 @@ const Information = ({ scrollPosition }) => {
             id: "aroundnus", 
             title: "AroundNUS", 
             role: "UI/UX Designer", 
-            description: "Phone application to find the fastest way to get around the campus of the National University of Singapore.",
-            techstack: "flutter | firebase", 
+            description: "Mobile application to find the fastest way to get around the campus of the National University of Singapore.",
+            techstack: "flutter | firebase | android studio", 
             type: "Android App",    
             start: aroundnusStart,
             end: aroundnusEnd - 300

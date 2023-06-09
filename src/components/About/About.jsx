@@ -1,5 +1,7 @@
 import React from "react";
 import "./about.css";
+// import { Link, Outlet } from "react-router-dom";
+
 
 const About = ({ scrollPosition }) => {
     
@@ -21,7 +23,10 @@ const About = ({ scrollPosition }) => {
                 in the field, I have honed my skills in developing innovative solutions and 
                 collaborating with cross-functional teams.
             </div>
-            
+
+            {/* <Link to="/skills">Go to Skills</Link>
+            <Outlet /> */}
+
         </div>
         
     )

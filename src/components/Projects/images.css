@@ -4,7 +4,7 @@
     width: 50%;
     height: 130vh;
     z-index: 1;
-    left: 35%;
+    left: 43%;
 }
 
 .image {
@@ -15,6 +15,7 @@
     background-position: center;
     transition: top 0.3s ease-out;
 }
+
 
 .image1 {
     left: 0%;
