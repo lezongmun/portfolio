@@ -1,31 +1,42 @@
-import React from "react";
+import {React, useEffect, useState} from "react";
 import "./about.css";
-import { Link, Outlet } from "react-router-dom";
 
 
 const About = ({ scrollPosition }) => {
+    const [aboutMoveStart, setAboutMoveStart] = useState(null);
+
+
+    useEffect(() => {
+        const aboutMoveElement = document.getElementById("about_page");
+        if (aboutMoveElement) {
+            setAboutMoveStart(aboutMoveElement.offsetTop/1.6);
+            console.log(aboutMoveElement.offsetTop);
+        }
+
+    }, []);
     
-    let aboutTextClassNames = "";
-    if (scrollPosition > 400) {
-        aboutTextClassNames += "animate";
+    let aboutAnimateClass = "";
+    if (scrollPosition > aboutMoveStart) {
+        aboutAnimateClass += "animate";
     }
 
 
     return (
         <div id="about">
-            <div id="about_text" className={aboutTextClassNames}>
+            <div id="about_text" className={aboutAnimateClass}>
                 <div className="about"> ABOUT </div>
                 <div className="me">ME</div>
             </div>
-            <div id="about_description" className={aboutTextClassNames}>
-                I am a passionate and dedicated individual with a love for technology and a 
-                strong background in software engineering. With several years of experience 
-                in the field, I have honed my skills in developing innovative solutions and 
-                collaborating with cross-functional teams.
+            <div id="about_description" className={aboutAnimateClass}>
+                Hello, I'm Le Zong and I'm a final year Computer Engineering student at the 
+                National University of Singapore (NUS). My primary areas of interest lie 
+                in Backend Engineering, Web Development, IoT and AI. In my free time, 
+                I enjoy watching football and exercising.
             </div>
 
-            <Link to="/skills">Go to Skills</Link>
-            <Outlet />
+            {/* <div id="skills_button">
+                Skills
+            </div> */}
 
         </div>
         

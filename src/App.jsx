@@ -3,18 +3,24 @@ import Home from "./components/Home/Home";
 import { useState, useEffect } from "react";
 
 import "./App.css";
+import NavBar from "./components/NavBar/NavBar";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
-import Main from "./Main"
-import { Routes, Route } from 'react-router-dom';
+import Contact from "./components/Contact/Contact";
+import Projects from "./components/Projects/Projects"
 
 const App = () => {
+    let bgWhiteClass = "";
     const [scrollPosition, setScrollPosition] = useState(0);
+    const [bgWhiteStart, setBgWhiteStart] = useState(null);
 
 
-    // add an event listener to check for scrolling at the beginning
-    // setScrollPosition everytime a scroll event is heard
     useEffect(() => {
+        const bgWhiteStartElement = document.getElementById("about_page");
+        if (bgWhiteStartElement) {
+            setBgWhiteStart(bgWhiteStartElement.offsetTop / 2.5);
+        }
+
       const handleScroll = () => {
         setScrollPosition(window.scrollY);
       };
@@ -26,14 +32,34 @@ const App = () => {
       };
     }, []);
 
+    if (scrollPosition > bgWhiteStart) {
+        bgWhiteClass += "bg-white";
+    }
+
     return (
-        <div className="App">
+        <div id="App" className={`App + ${bgWhiteClass}`}>
             
-            <Routes>
-                <Route path="/" element={<Main scrollPosition={scrollPosition}/>} />
-                <Route path="/about" element={<About scrollPosition={scrollPosition} />} />
-                <Route path="/skills" element={<Skills />} />
-            </Routes>
+            <NavBar scrollPosition={scrollPosition}/>
+
+            <section id="home_page" className="page">
+                <Home scrollPosition={scrollPosition}/>
+            </section>
+
+            <section id="about_page" className={"page"}>
+                <About scrollPosition={scrollPosition}/>
+            </section>
+            
+            <section id="skills_page" className="page">
+                <Skills scrollPosition={scrollPosition}/>
+            </section>
+
+            <section id="projects_page" className="page">
+                <Projects scrollPosition={scrollPosition}/>
+            </section>
+
+            <section id="contact_page" className="page">
+                <Contact/>
+            </section>
 
 
         </div>        

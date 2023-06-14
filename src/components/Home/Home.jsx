@@ -1,14 +1,24 @@
-import React from "react";
+import {React, useEffect, useState} from "react";
 import "./home.css";
 
 const Home = ({ scrollPosition }) => {
-    let classNames = "";
-    if (scrollPosition > 270) {
-        classNames += "bg-white";
+    const [bgWhiteStart, setBgWhiteStart] = useState(null);
+
+
+    useEffect(() => {
+        const bgWhiteStartElement = document.getElementById("about_page");
+        if (bgWhiteStartElement) {
+            setBgWhiteStart(bgWhiteStartElement.offsetTop / 2.5);
+        }
+    }, []);
+
+    let bgWhiteClass = "";
+    if (scrollPosition > bgWhiteStart) {
+        bgWhiteClass += "bg-white";
     }
 
     return (
-        <div id="home" className={classNames}>
+        <div id="home" className={bgWhiteClass}>
             <div id="name" className="home_body">
                 MUN LE ZONG
             </div>

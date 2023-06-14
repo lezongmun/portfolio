@@ -3,19 +3,37 @@
     width: 100%;
     position: absolute;
     text-align: center;    
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    /* border: 10px solid red; */
 }
+
+#skills_title {
+    height: 20vh;
+    overflow: hidden;
+    text-align: left;    
+}
+
+#skills_word {
+    font-family: 'DM Serif Display', serif;
+    font-size: 130px;
+    position: relative;
+    opacity: 1;
+    bottom: 10%;
+}
+  
+
 
 #skills_section {
     position: relative;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
     grid-template-rows: auto auto; /* Two rows with automatic height */
     justify-items: center;
     column-gap: 0%;
-    row-gap: 30%;
-    top: 20%;
-
+    /* row-gap: 5%; */
+    /* top: 20%; */
+    height: 75vh;
 
     width: 80%;
     left: 10%;
@@ -23,14 +41,10 @@
     
 }
 
-.skill_class {
-}
-
 .skill_header {
     font-family: 'DM Serif Display', serif;
-
-    font-size: 25px;
-    margin-bottom: 3%;
+    font-size: 27px;
+    margin-bottom: 8%;
 
 }
 
@@ -45,23 +59,3 @@
 
 }
 
-
-/* #skills #skills_text {
-    position: absolute;
-    z-index: 10;
-    right: 4%;
-    width: 50%;
-    top: 20%;
-
-    font-family: 'Bodoni Moda', serif;
-    font-size: 220px;
-    opacity: 0;
-    transform: translateX(40%);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-} 
-  
-#skills #skills_text.animate {
-    opacity: 0.1;
-    transform: translateX(0);
-}
- */

@@ -1,5 +1,5 @@
 #home {
-    background-color: #000;
+    /* background-color: #000; */
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -7,22 +7,20 @@
     align-items: center;
     position: absolute;
     width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* transition: background-color 1s ease; */
-    min-height: 100vh;
+    /* overflow: hidden; */
+    /* transition: background-color 0.8s ease; */
+    height: 100vh;
 }
 
 #home.bg-white {
-    background-color: white;
     color: #000;
-    transition: background-color 0.5s ease-out;
 }
 
 
 #home #name {
+    /* position: absolute; */
     font-size: 115px;
+    /* top: 25%; */
     /* font-family: 'Gruppo', sans-serif; */
     /* font-family: 'Monoton', cursive; */
     font-family: 'Bodoni Moda', serif;
@@ -31,7 +29,8 @@
 
 #home #description {
     font-family: 'DM Serif Display', serif;
-
+    /* position: absolute;
+    top: 40%; */
     font-size: 30px;
 }
 

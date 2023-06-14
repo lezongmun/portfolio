@@ -1,6 +1,5 @@
-import React from "react";
+import { React, useEffect }from "react";
 import "./skills.css";
-import { Link, Outlet } from 'react-router-dom';
 
 const SkillsColumn = ({skills}) => {
 
@@ -17,6 +16,26 @@ const SkillsColumn = ({skills}) => {
 
 
 const Skills = () => {
+    useEffect(() => { 
+        var divisor = 9;
+       
+        const skillsStart = document.getElementById("about_page");
+        const skillsStartPosition = skillsStart.offsetTop;
+        var skills_word = document.getElementById("skills_word");
+
+
+        function parallax() {
+            var pos = 0 - window.scrollY/divisor;	
+            skills_word.style.right = (skillsStartPosition/divisor) + pos + "%";
+        }
+        
+        window.addEventListener("scroll", parallax);
+
+        // Clean up the scroll event listener when the component unmounts or the page becomes hidden
+        return () => {
+            window.removeEventListener("scroll", parallax);
+        };
+    }, []);
     
 
     const skillList = [
@@ -27,7 +46,7 @@ const Skills = () => {
 
         {
             type: "Web Development",
-            skills: ["HTML", "CSS", "JavaScript", "React", "Java Sprint Boot (REST APIs)"],
+            skills: ["JavaScript", "React", "HTML", "CSS", "Java Sprint Boot (REST APIs)"],
         },
 
         {
@@ -60,10 +79,15 @@ const Skills = () => {
 
     return (
         <div id="skills">
+            <div id="skills_title">
+                <div id="skills_word">
+                    SKILLS
+                </div>
+            </div>
             <div id="skills_section">
                 {
                     skillList.map((skillType) => (
-                        <div className="skill_class">
+                        <div className="skill_class" key={skillType.type}>
                             <div className="skill_header">
                                 {skillType.type}
                             </div>
@@ -80,8 +104,7 @@ const Skills = () => {
                 SKILLS
             </div>
             */}
-            <Link to="/about">Go back</Link>
-            <Outlet />
+            
 
 
 
