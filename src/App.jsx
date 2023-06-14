@@ -57,6 +57,10 @@ const App = () => {
                 <Projects scrollPosition={scrollPosition}/>
             </section>
 
+            {/* <section id="experience_page" className="page">
+                EXPERIENCE
+            </section> */}
+
             <section id="contact_page" className="page">
                 <Contact/>
             </section>

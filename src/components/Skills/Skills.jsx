@@ -99,20 +99,8 @@ const Skills = () => {
                     ))
                 }
             </div>
-{/* 
-            <div id="skills_text" className={skillsTextClassNames}>
-                SKILLS
-            </div>
-            */}
-            
-
-
-
-
-        </div>
-        
+        </div> 
     )
-
 }
 
 export default Skills;

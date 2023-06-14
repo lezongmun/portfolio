@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";import  "./images.css";
+import React, { useEffect } from "react";
+import  "./project_images.css";
 
 
-const Images = () => {
+const ProjectImages = () => {
 
     useEffect(() => {
         
@@ -120,4 +121,4 @@ const Images = () => {
 
 }
 
-export default Images;
+export default ProjectImages;

@@ -2,10 +2,17 @@
 .images {
     position: relative;
     width: 50%;
-    height: 130vh;
+    height: 135vh;
     z-index: 1;
     left: 43%;
 }
+
+
+
+#contech_images {
+  height: 105vh;
+}
+
 
 .image {
     width: 50%;

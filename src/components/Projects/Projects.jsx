@@ -1,6 +1,6 @@
 import "./projects.css";
-import Information from "./Information";
-import Images from "./Images";
+import ProjectInformation from "./Project_Information";
+import ProjectImages from "./Project_Images";
 
 
 const Projects = ({ scrollPosition }) => {
@@ -8,8 +8,8 @@ const Projects = ({ scrollPosition }) => {
 
     return (
         <div id="projects">
-            <Images scrollPosition={scrollPosition}/> 
-            <Information scrollPosition={scrollPosition}/>
+            <ProjectImages scrollPosition={scrollPosition}/> 
+            <ProjectInformation scrollPosition={scrollPosition}/>
         </div>
     )
 
