@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.73e6c374.css",
+    "main.js": "/portfolio/static/js/main.e219560e.js",
+    "static/media/aroundnus_directions_map_samsung.png": "/portfolio/static/media/aroundnus_directions_map_samsung.276d4a164c7033baa83d.png",
+    "static/media/eatwhere_send_location_samsung.png": "/portfolio/static/media/eatwhere_send_location_samsung.e943598a2ce338afa8ca.png",
+    "static/media/eatwhere_results_samsung.png": "/portfolio/static/media/eatwhere_results_samsung.0acbb63d1a8a7731e379.png",
+    "static/media/eatwhere_dietary_samsung.png": "/portfolio/static/media/eatwhere_dietary_samsung.50051895a19a242cfd02.png",
+    "static/media/eatwhere_filter_samsung.png": "/portfolio/static/media/eatwhere_filter_samsung.ae40d329bc98fc274f9d.png",
+    "static/media/aroundnus_find_nearest_samsung.png": "/portfolio/static/media/aroundnus_find_nearest_samsung.c5c454bcbbb031f426b9.png",
+    "static/media/aroundnus_directions_samsung.png": "/portfolio/static/media/aroundnus_directions_samsung.ffa411824b091432bb7c.png",
+    "static/media/aroundnus_bus_timings_samsung.png": "/portfolio/static/media/aroundnus_bus_timings_samsung.a3840fcf0ee8f9b401dd.png",
+    "static/media/search_contact.png": "/portfolio/static/media/search_contact.4e939e52de2af05fe956.png",
+    "static/media/add_contact.png": "/portfolio/static/media/add_contact.b5fcde1505dbe4afe3ce.png",
+    "static/media/edit_contact.png": "/portfolio/static/media/edit_contact.c28f736b2c2ffcee9a3f.png",
+    "index.html": "/portfolio/index.html",
+    "main.73e6c374.css.map": "/portfolio/static/css/main.73e6c374.css.map",
+    "main.e219560e.js.map": "/portfolio/static/js/main.e219560e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73e6c374.css",
+    "static/js/main.e219560e.js"
+  ]
+}
