@@ -61,11 +61,11 @@
 
 
 .cli_image1 {
-  left: -10%;
+  left: -12%;
   position: absolute; 
   margin-top: 16%;
   height: 69%;
-  width: 69%;
+  width: 75%;
   background-position: left;
   z-index: 3;
 }
@@ -123,16 +123,16 @@
 }
 
 #contech_img2 {
-  background-image: url('img/add_contact.png');
+  background-image: url('img/edit_contact.png');
 
 }   
 
 #contech_img3 {
-  background-image: url('img/view_contact.png');
+  background-image: url('img/add_contact.png');
 }
 
 #contech_img4 {
-  background-image: url('img/edit_contact.png');
+  background-image: url('img/view_contact.png');
 }
 
 
