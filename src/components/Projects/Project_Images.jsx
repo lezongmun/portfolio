@@ -6,9 +6,9 @@ const ProjectImages = () => {
 
     useEffect(() => {
         
-        var divisor_1 = 8;
+        var divisor_1 = 7;
         var divisor_2 = 16;
-        var divisor_3 = 12;
+        var divisor_3 = 11;
         var divisor_4 = 20;
 
 
