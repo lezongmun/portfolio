@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.73e6c374.css",
-    "main.js": "/portfolio/static/js/main.e219560e.js",
+    "main.css": "/portfolio/static/css/main.4bd8206d.css",
+    "main.js": "/portfolio/static/js/main.28237f95.js",
     "static/media/aroundnus_directions_map_samsung.png": "/portfolio/static/media/aroundnus_directions_map_samsung.276d4a164c7033baa83d.png",
     "static/media/eatwhere_send_location_samsung.png": "/portfolio/static/media/eatwhere_send_location_samsung.e943598a2ce338afa8ca.png",
     "static/media/eatwhere_results_samsung.png": "/portfolio/static/media/eatwhere_results_samsung.0acbb63d1a8a7731e379.png",
@@ -14,11 +14,11 @@
     "static/media/add_contact.png": "/portfolio/static/media/add_contact.b5fcde1505dbe4afe3ce.png",
     "static/media/edit_contact.png": "/portfolio/static/media/edit_contact.c28f736b2c2ffcee9a3f.png",
     "index.html": "/portfolio/index.html",
-    "main.73e6c374.css.map": "/portfolio/static/css/main.73e6c374.css.map",
-    "main.e219560e.js.map": "/portfolio/static/js/main.e219560e.js.map"
+    "main.4bd8206d.css.map": "/portfolio/static/css/main.4bd8206d.css.map",
+    "main.28237f95.js.map": "/portfolio/static/js/main.28237f95.js.map"
   },
   "entrypoints": [
-    "static/css/main.73e6c374.css",
-    "static/js/main.e219560e.js"
+    "static/css/main.4bd8206d.css",
+    "static/js/main.28237f95.js"
   ]
 }
