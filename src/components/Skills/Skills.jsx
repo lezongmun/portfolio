@@ -17,7 +17,7 @@ const SkillsColumn = ({skills}) => {
 
 const Skills = () => {
     useEffect(() => { 
-        var divisor = 9;
+        var divisor = 10;
        
         const skillsStart = document.getElementById("about_page");
         const skillsStartPosition = skillsStart.offsetTop;
@@ -55,8 +55,8 @@ const Skills = () => {
         },
 
         {
-            type: "Databases",
-            skills: ["PostgreSQL"],
+            type: "Big Data",
+            skills: ["PostgreSQL", "Hadoop", "Spark"],
         },
 
         {

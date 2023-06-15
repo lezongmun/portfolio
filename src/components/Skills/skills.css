@@ -10,15 +10,17 @@
 #skills_title {
     height: 20vh;
     overflow: hidden;
-    text-align: left;    
+    /* text-align: left;     */
 }
 
 #skills_word {
     font-family: 'DM Serif Display', serif;
-    font-size: 130px;
+    font-size: 110px;
     position: relative;
-    opacity: 1;
-    bottom: 10%;
+    top: -10%;
+    transform: translate(-35%);
+    opacity: 0.1;
+
 }
   
 
@@ -45,6 +47,7 @@
     font-family: 'DM Serif Display', serif;
     font-size: 27px;
     margin-bottom: 8%;
+    font-weight: 600;
 
 }
 

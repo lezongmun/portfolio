@@ -103,7 +103,7 @@ const ProjectInformation = ({ scrollPosition }) => {
     const adjustedProjectsEnd = (projectsEnd - (eatwhereEnd-eatwhereStart)/2.9)
 
     const isVisible = scrollPosition >= adjustedProjectsStart && scrollPosition <= adjustedProjectsEnd;
-    console.log(projects[0].start);
+    
     return (
         <div id="projects_info" className={ isVisible ? "projects_info" : "projects_info hidden"}>
             <ProjectComponent project={projects[0]} scrollPosition={scrollPosition}/>

@@ -8,6 +8,7 @@ const Projects = ({ scrollPosition }) => {
 
     return (
         <div id="projects">
+            <div id="projects_word"> PROJECTS </div>
             <ProjectImages scrollPosition={scrollPosition}/> 
             <ProjectInformation scrollPosition={scrollPosition}/>
         </div>
