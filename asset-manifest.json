@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.25cca1b2.css",
+    "main.css": "/portfolio/static/css/main.a6896e10.css",
     "main.js": "/portfolio/static/js/main.747852d9.js",
     "static/media/eatwhere_send_location_samsung.png": "/portfolio/static/media/eatwhere_send_location_samsung.27aa40b3906fc4d526ed.png",
     "static/media/eatwhere_results_samsung.png": "/portfolio/static/media/eatwhere_results_samsung.ca043525f350a51c1a53.png",
@@ -14,11 +14,11 @@
     "static/media/add_contact.png": "/portfolio/static/media/add_contact.2aab878447f1ccd3628d.png",
     "static/media/edit_contact.png": "/portfolio/static/media/edit_contact.f48938e19c408ff429a1.png",
     "index.html": "/portfolio/index.html",
-    "main.25cca1b2.css.map": "/portfolio/static/css/main.25cca1b2.css.map",
+    "main.a6896e10.css.map": "/portfolio/static/css/main.a6896e10.css.map",
     "main.747852d9.js.map": "/portfolio/static/js/main.747852d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.25cca1b2.css",
+    "static/css/main.a6896e10.css",
     "static/js/main.747852d9.js"
   ]
 }
